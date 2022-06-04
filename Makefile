@@ -5,7 +5,7 @@ name = snaek
 src  = src
 obj  = src/main.o
 
-all: clean $(name).gb
+all: $(name).gb
 
 clean:
 	@rm -f $(obj) $(name).gb $(name).sym
